@@ -29,8 +29,8 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        bind = ActivityMainBinding.inflate(layoutInflater)
-        setContentView(bind.root)
+            bind = ActivityMainBinding.inflate(layoutInflater)
+            setContentView(bind.root)
 
         val adapter = Viewpageraddapter(this, fragList)
         bind.vp2.adapter = adapter
